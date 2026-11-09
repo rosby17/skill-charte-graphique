@@ -1,0 +1,85 @@
+{
+  "_lisez_moi": "Fichier de marque : la SEULE source de vérité. Tous les scripts (logos, InDesign, déclinaisons) le lisent. Chemins relatifs au dossier charte-graphique/. Un texte vide = page avec « À compléter » visible (jamais de texte inventé présenté comme vrai).",
+
+  "marque": {
+    "nom": "ATLAS",
+    "nom_complet": "Nouvelle Excellence Académique",
+    "slogan": "",
+    "secteur": "Enseignement supérieur",
+    "ville": "Abidjan · Côte d’Ivoire",
+    "site": "",
+    "annee": "2026",
+    "version": "1.0",
+    "direction_artistique": "",
+    "fichier": "ATLAS"
+  },
+
+  "textes": {
+    "avant_propos": "Cette charte rassemble les règles qui font de ATLAS une marque reconnaissable partout : sur un diplôme, une façade, un écran. Elle s’adresse à toute personne qui crée un support au nom de l’université.",
+    "presentation": "",
+    "mission": "",
+    "vision": "",
+    "valeurs": [],
+    "personnalite": [
+      { "gauche": "Traditionnelle", "droite": "Moderne", "valeur": 0.6 },
+      { "gauche": "Sérieuse", "droite": "Chaleureuse", "valeur": 0.3 },
+      { "gauche": "Accessible", "droite": "Prestigieuse", "valeur": 0.75 }
+    ],
+    "ton": { "est": ["Exigeant", "Clair", "Bienveillant"], "n_est_pas": ["Familier", "Prétentieux", "Technique"] },
+    "signification": [
+      { "titre": "Le X bicolore", "texte": "Deux traits qui se croisent : le savoir et l’ambition qui se rencontrent. Le rouge marque l’élan, le bleu la rigueur." },
+      { "titre": "Les capitales à empattements", "texte": "Un dessin classique, hérité des grandes universités, qui inspire la confiance et la durée." }
+    ]
+  },
+
+  "logos": {
+    "formes": {
+      "principal": { "svg": "logos/principal.svg", "libelle": "Version principale", "usage": "Usage par défaut, sur fond clair." },
+      "symbole":   { "svg": "logos/symbole.svg",   "libelle": "Monogramme",         "usage": "Favicon, avatar, réseaux sociaux, petits formats." }
+    },
+    "couleur_sombre_a_inverser": "#0B2A5B",
+    "zone_protection": { "rapport": 0.5, "definition": "x = hauteur de la lettre E" },
+    "tailles_minimales": [
+      { "forme": "principal", "print_mm": 30, "ecran_px": 140 },
+      { "forme": "symbole",   "print_mm": 8,  "ecran_px": 32 }
+    ]
+  },
+
+  "couleurs": [
+    { "nom": "Bleu Atlas",  "role": "principale",   "hex": "#0B2A5B", "cmjn": null, "pantone": "" },
+    { "nom": "Rouge Atlas", "role": "secondaire",   "hex": "#C8102E", "cmjn": null, "pantone": "" },
+    { "nom": "Or",         "role": "accent",       "hex": "#C9A24A", "cmjn": null, "pantone": "" },
+    { "nom": "Ivoire",     "role": "neutre",       "hex": "#FAF7F0", "cmjn": null, "pantone": "" },
+    { "nom": "Gris texte", "role": "neutre",       "hex": "#5A6270", "cmjn": null, "pantone": "" }
+  ],
+  "proportions": { "Ivoire": 55, "Bleu Atlas": 30, "Rouge Atlas": 10, "Or": 5 },
+
+  "typographies": {
+    "titres": { "famille": "Playfair Display", "styles": ["Regular", "SemiBold", "Bold"], "fichiers": ["polices/PlayfairDisplay-Regular.ttf", "polices/PlayfairDisplay-SemiBold.ttf", "polices/PlayfairDisplay-Bold.ttf"], "role": "Titres, nom des personnes, citations", "licence": "SIL Open Font License (gratuite, usage commercial autorisé)" },
+    "texte":  { "famille": "Montserrat", "styles": ["Light", "Regular", "Medium", "SemiBold"], "fichiers": [], "role": "Textes courants, coordonnées, légendes", "licence": "SIL Open Font License" },
+    "bureautique": { "famille": "Georgia", "role": "Word, PowerPoint, e-mails (installée sur tous les ordinateurs)" }
+  },
+  "hierarchie": [
+    { "niveau": "Titre 1",       "police": "titres", "style": "SemiBold", "corps": 40, "interligne": 44 },
+    { "niveau": "Titre 2",       "police": "titres", "style": "Regular",  "corps": 24, "interligne": 30 },
+    { "niveau": "Intertitre",    "police": "texte",  "style": "SemiBold", "corps": 11, "interligne": 14, "capitales": true, "approche": 150 },
+    { "niveau": "Texte courant", "police": "texte",  "style": "Regular",  "corps": 10, "interligne": 15 },
+    { "niveau": "Légende",       "police": "texte",  "style": "Light",    "corps": 8,  "interligne": 11 }
+  ],
+
+  "contacts": [
+    { "nom": "Prénom NOM", "fonction": "Directeur", "telephones": ["+000 00 00 00 00"], "emails": ["contact@exemple.com"] }
+  ],
+  "adresse": "Abidjan, Côte d’Ivoire",
+
+  "declinaisons": ["carte-visite", "entete", "enveloppe", "kakemono", "badge", "reseaux"],
+
+  "images": [
+    { "fichier": "01-campus-facade.png", "page": "univers", "legende": "Façade du campus avec signalétique ATLAS" },
+    { "fichier": "02-mockup-papeterie.png", "page": "papeterie", "legende": "La papeterie ATLAS" },
+    { "fichier": "03-mockup-diplome.png", "page": "applications", "legende": "Diplôme" },
+    { "fichier": "04-mockup-kakemono.png", "page": "applications", "legende": "Kakemono d’accueil" }
+  ],
+
+  "charte": { "format": "A4-paysage", "chapitres": ["marque", "logo", "couleurs", "typographie", "univers", "applications"] }
+}
